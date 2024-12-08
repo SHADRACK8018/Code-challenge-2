@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Shopping List</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 20px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+        }
+        
+        .purchased {
+            text-decoration: line-through;
+            background-color: #444;
+            color: #bbb;
+        }
+        
+        #inputContainer {
+            margin-bottom: 20px;
+        }
+        
+        #itemInput {
+            width: 30%;
+            padding: 15px;
+            font-size: 1.2em;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0 4px 6px black;
+        }
+        
+        #addButton,
+        #markPurchasedButton,
+        #clearButton {
+            width: 150px;
+            padding: 15px;
+            font-size: 1.2em;
+            margin: 5px;
+            cursor: pointer;
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px black;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        
+        #addButton:hover,
+        #markPurchasedButton:hover,
+        #clearButton:hover {
+            background-color: red;
+            transform: scale(1.05);
+        }
+        
+        #shoppingList {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+            margin: 0 auto;
+            width: fit-content;
+        }
+        
+        #shoppingList li {
+            margin: 5px 0;
+            font-size: 1.1em;
+            background: gray;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px black
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SHOPPING LIST</h1>
+    <div id="inputContainer">
+        <input type="text" id="itemInput" placeholder="Add an item">
+        <div>
+            <button id="addButton">Add</button>
+            <button id="markPurchasedButton">Purchased</button>
+            <button id="clearButton">Clear List</button>
+        </div>
+    </div>
+    <ul id="shoppingList"></ul>
+    <script src="index.js"></script>
+</body>
+
+</html>
