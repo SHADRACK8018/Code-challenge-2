@@ -1,7 +1,8 @@
 # SHOPPING LIST
-This is my live link: https://shadrack8018.github.io/Code-challenge-2/
 Welcome to the interactive shopping list, This allows the users to add, manage and clear shopping items and can also mark them as purchased and enjoy visually appealing interface.
 
+## Live link
+https://shadrack8018.github.io/Code-challenge-2/
 
 ## Technologies Used
 HTML - structure and layout.
