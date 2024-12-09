@@ -1,5 +1,6 @@
-# INTERACTIVE SHOPPING LIST
+# SHOPPING LIST
 Welcome to the interactive shopping list, This allows the users to add, manage and clear shopping items and can also mark them as purchased and enjoy visually appealing interface.
+###This is my live link:
 
 ## Technologies Used
 HTML - structure and lay out.
