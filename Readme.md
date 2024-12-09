@@ -1,15 +1,16 @@
 # SHOPPING LIST
+This is my live link: https://shadrack8018.github.io/Code-challenge-2/
 Welcome to the interactive shopping list, This allows the users to add, manage and clear shopping items and can also mark them as purchased and enjoy visually appealing interface.
-###This is my live link:
+
 
 ## Technologies Used
-HTML - structure and lay out.
+HTML - structure and layout.
 CSS - Styling and visual designing.
 JAVASCRIPT - Functionality and interactivity.
 
 ## Prerequisites
 To run it you need a modern web browser.
-### Installtion
+### Installation
 1. Clone the repo  "git clone"
 2. Navigate to the project directory  "cd"
 3. Open index.html file.
@@ -21,7 +22,7 @@ To run it you need a modern web browser.
 ~ Clear the list
 
 ## License
-This project is under MIT lucence.See the LICENSE file for more information
+This project is under MIT lucence. See the LICENSE file for more information
 
-### Author : Shadrack Kiplagat
+### Author: Shadrack Kiplagat
 
